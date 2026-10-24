@@ -1,0 +1,3 @@
+2026-10-24 01:01:48 | SUCESSO | CompressPDF | aula10.pdf | PDF comprimido
+2026-10-24 01:02:02 | ERRO | CompressPDF | invalido.pdf | Falha na compressao
+2026-10-24 01:03:14 | SUCESSO | CompressPDF | pesado.pdf | PDF comprimido

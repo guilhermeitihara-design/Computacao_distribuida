@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package calculadora;
+
+message SomaRequest {
+  double a = 1;
+  double b = 2;
+}
+
+message SomaResponse {
+  double resultado = 1;
+}
+
+service Calculadora {
+  rpc Somar (SomaRequest) returns (SomaResponse) {}
+}
